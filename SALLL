@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annia’s Resume</title>
+    
+    <!-- Internal Styles (Advanced with Colors) -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5; /* Light Grey */
+            color: #333; /* Dark Grey */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #990099; /* Purple */
+            color: #ffffff; /* White */
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        nav {
+            background-color: #cc00cc; /* Pink */
+            color: #ffffff; /* White */
+            padding: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: #ffffff; /* White */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #007bff; /* Blue */
+            color: white;
+            padding: 20px;
+            margin: 10px 0;
+            width: 80%; /* Adjust the width as needed */
+            border-radius: 8px;
+        }
+
+        h2 {
+            flex: 1; /* Allow the header to expand and fill available space */
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        table {
+            border: 2px solid #cc00cc; /* Pink */
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 2px solid #cc00cc; /* Pink */
+            padding: 10px;
+            text-align: left;
+        }
+
+        a {
+            color: #990099; /* Purple */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        dl {
+            margin: 0;
+        }
+
+        dl a {
+            color: #990099; /* Purple */
+            text-decoration: none;
+        }
+
+        dl a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* New style for the salary calculator button */
+        .salary-calculator-button {
+            background-color: pink; /* Pink */
+            color: #ffffff; /* White */
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Adjusted style for the navigation links */
+        nav a.salary-calculator-button:hover {
+            background-color: #cc00cc; /* Pink on hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <!-- Added the Salary Calculator button -->
+        <a href="#salary-calculator" class="salary-calculator-button">Salary Calculator</a>
+        <a href="#education">Education</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#honorable-mention">Honorable Mention</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <header>
+        <h1>Annia Takori</h1>
+        <p>This website will provide insightful information on how to begin your journey in the law field.</p>
+    </header>
+
+    <!-- ... (Rest of your content) ... -->
+
+</body>
+
+</html>
